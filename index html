@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Nome - Portfólio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">MeuNome</h1>
+            <ul class="nav-links">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container">
+            <h2>Olá, eu sou <span class="highlight">Seu Nome</span></h2>
+            <p class="subtitle">Desenvolvedor Web • Designer • Criador de Conteúdo</p>
+            <a href="#projetos" class="btn">Ver meus projetos</a>
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="section">
+        <div class="container">
+            <h2>Sobre Mim</h2>
+            <p>Escreva aqui um texto sobre você. Suas paixões, experiência e o que você faz.</p>
+        </div>
+    </section>
+
+    <!-- Projetos -->
+    <section id="projetos" class="section">
+        <div class="container">
+            <h2>Projetos</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Projeto 1</h3>
+                    <p>Descrição breve do projeto.</p>
+                    <a href="#" class="btn-small">Ver projeto</a>
+                </div>
+                <div class="project-card">
+                    <h3>Projeto 2</h3>
+                    <p>Descrição breve do projeto.</p>
+                    <a href="#" class="btn-small">Ver projeto</a>
+                </div>
+                <div class="project-card">
+                    <h3>Projeto 3</h3>
+                    <p>Descrição breve do projeto.</p>
+                    <a href="#" class="btn-small">Ver projeto</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="section">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="Seu nome" required>
+                <input type="email" placeholder="Seu email" required>
+                <textarea placeholder="Sua mensagem" required></textarea>
+                <button type="submit" class="btn">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Seu Nome. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
